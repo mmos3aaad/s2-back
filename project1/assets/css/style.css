@@ -1,0 +1,65 @@
+header{
+         background-color: rgb(252, 253, 253);
+         display: flex;
+    justify-content: space-between;
+    align-items: center; height: 100vh;
+}
+header .logo{
+    width:10%
+}
+header .logo img{
+    width: 80%;
+}
+
+.social .fa-facebook{
+  color:blue;
+
+}
+.fa-brands{
+    font-size: 35px;
+}
+header nav ul li{
+    list-style:none;
+   display:inline-block;
+   margin-right: 10px;
+ 
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color:#7bc450;
+    font-size:20px;
+    padding: 10px;
+   display:block;
+}
+header nav ul li:hover{
+
+    background-color:white;
+
+}
+header nav ul li a:hover {
+  color:black;
+}
+.carousel-indicators [data-bs-target] {
+
+    background-color: #318bcf;
+}
+
+.products{
+    display:grid ;
+    grid-template-columns:auto auto auto ;
+    justify-content: space-around;
+    grid-row-gap: 25px;
+}
+
+                    /* footer */
+.foooter{background-color: #1f1f1f; height: 4s00px;}
+  .f-1 {padding: 70px 0px;}
+  .f-1-1 p {color: #c7c7c7; margin: 30px 0px; font-size: 16px;} .f-1-1 button{ background-color: #707070; border-radius: 4px;
+  border: 1px hidden white ;margin-right: 5px; padding: 10px 15px; font-size: 20px; color: #919191; }
+  .f-1-2 h2{color: white; font-size: 25px; margin-bottom: 30px;}
+  .f-1-2 a {font-size: 18px; color: #bababa;line-height: 42px; text-decoration: none; display: block;}.f-1-2 a:hover{color: #009dff; transition: .3s;}
+  .f-1-2 p {    font-size: 18px; font-weight: 300;line-height: 28px; color: #c7c7c7;}
+
+                /* loginval */    
+

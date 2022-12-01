@@ -1,0 +1,7 @@
+.pass {color: red; font-weight: 900; font-family: 'Times New Roman', Times, serif;
+margin: 5% 0 0 30%;}
+
+#welcome {padding: 15px; font-family: monospace; font-size: 75px;}
+.user_info {padding: 15px; border: 5px groove #03a9f4; width: 40%;margin-left: 10px;}
+h5 {font-size: 22px; }
+h5 span {font-size: 23px; color: crimson; font-weight: 700; }

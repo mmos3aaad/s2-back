@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/join.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="form-container sign-up-container">
+            <form action="signUp.php" method="post">
+                <h1>Create Account</h1>
+               
+                <span> use your email for registration</span>
+                <input type="text" placeholder="First Name" name="f_name" />
+                <input type="text" placeholder="Last Name" name="l_name" />
+                <label>Birthdate</label> <input type="date" name="bday"/>
+                <label>Gender:</label> 
+                <label>Male</label> <input type="radio" value="Male" name="gender" class="irad"/> 
+                <label>Female</label> <input type="radio" value="Female" name="gender" class="irad"/> 
+                <input type="number" placeholder="Phone Number"  name="p_number"/>  
+                <input type="email" placeholder="Email" name="up_email"/>
+                <input type="password" placeholder="Password"  name="up_pass"/>
+                <input type="password" placeholder="Confirm your Password"  name="c_up_pass"/>
+                <button>Sign Up</button>
+            </form>
+        </div>
+        <div class="form-container sign-in-container">
+            <form method="post" action="loginVal.php">
+                <h1>Sign in</h1>
+                <input type="email" placeholder="Email"  name="in_email"/>
+                <input type="password" placeholder="Password" name="in_pass" />
+                <a href="#">Forgot your password?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+        <div class="overlay-container">
+            <div class="overlay">
+                <div class="overlay-panel overlay-left">
+                    <h1>Welcome Back!</h1>
+                    <p>To keep connected with us please login</p>
+                    <button class="ghost" id="signIn">Sign In</button>
+                </div>
+                <div class="overlay-panel overlay-right">
+                    <h1>Hello Friend, <br/> New Here?</h1>
+                    <p>Enter your personal details and Create an acoount!</p>
+                    <button class="ghost" id="signUp">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="togglebtn" onclick="myFunction()">?????</button>
+
+
+
+    <div id="myDIV">
+        <p>Email: example@ex.com</p>
+        <p>Password: pass123</p> 
+       </div> 
+    <script src="./assets/js/join.js"></script>
+    <!-- <script>
+        function myFunction() {
+	  var x = document.getElementById("myDIV");
+	  if (x.style.display === "none") {
+	    x.style.display = "block";
+	  } else {
+	    x.style.display = "none";
+	  }
+	} 
+    </script> -->
+
+</body>
+</html>

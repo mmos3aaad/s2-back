@@ -1,0 +1,7 @@
+.log_ok {color: rgb(64, 143, 64); font-size: 80px;font-weight: 900; font-family: 'Times New Roman', Times, serif;
+margin: 10% 0 0 40%;}
+.log_ok_h {font-size: 30px;margin: 0 0 0 41%;}
+.log_ok_h span {color: darkred; font-weight: 900; text-decoration: underline; }
+.logbtn{padding: 10px 15px; margin:5% 0 0 45%;}
+.log_no{color: red;font-size: 50px;font-weight: 900; font-family: 'Times New Roman', Times, serif;
+}
